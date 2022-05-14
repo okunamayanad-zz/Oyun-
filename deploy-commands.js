@@ -3,7 +3,7 @@ const path = require('node:path');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId } = require('./config.json');
-const {token}= process.env['token']
+const { token } = process.env['token']
 
 const commands = [];
 const commandsPath = path.join(__dirname, 'commands');
