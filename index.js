@@ -1,7 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Intents } = require('discord.js');
-const { token } = process.env['token']
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
@@ -34,4 +33,4 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-client.login(token);
+client.login(process.env['token']);
