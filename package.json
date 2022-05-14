@@ -1,0 +1,24 @@
+{
+  "name": "oyun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okunamayanad/Oyun-.git"
+  },
+  "author": "okunamayanad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okunamayanad/Oyun-/issues"
+  },
+  "homepage": "https://github.com/okunamayanad/Oyun-#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.7.0"
+  }
+}
